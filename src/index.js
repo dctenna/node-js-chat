@@ -1,4 +1,4 @@
-const processMessage = require('./chain-or-responsibility');
+const processMessage = require('./chain-of-responsibility');
 
 const express = require('express');
 const cors = require('cors');

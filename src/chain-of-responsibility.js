@@ -1,11 +1,11 @@
 function addTime(message) {
-  if (message.user === "lion") {
+  if (message.user === 'lion') {
     return `${new Date()}: ${message.message}`;
   }
 }
 
 function addCatSmile(message) {
-  if (message.user === "cat") {
+  if (message.user === 'cat') {
     return `${message.message} ^._.^`;
   }
 }
@@ -23,4 +23,5 @@ module.exports = function processMessage(message) {
       return result;
     }
   }
-}
+};
+
